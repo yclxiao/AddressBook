@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		FC42AC0F1F32D56C000D7E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC0E1F32D56C000D7E75 /* main.m */; };
 		FC42AC121F32D56C000D7E75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC111F32D56C000D7E75 /* AppDelegate.m */; };
-		FC42AC151F32D56C000D7E75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC141F32D56C000D7E75 /* ViewController.m */; };
 		FC42AC181F32D56C000D7E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC42AC161F32D56C000D7E75 /* Main.storyboard */; };
 		FC42AC1A1F32D56C000D7E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC42AC191F32D56C000D7E75 /* Assets.xcassets */; };
 		FC42AC1D1F32D56C000D7E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC42AC1B1F32D56C000D7E75 /* LaunchScreen.storyboard */; };
 		FC42AC281F32D56C000D7E75 /* AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC271F32D56C000D7E75 /* AddressBookTests.m */; };
 		FC42AC331F32D56C000D7E75 /* AddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC321F32D56C000D7E75 /* AddressBookUITests.m */; };
+		FC42AC431F32D5F7000D7E75 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC421F32D5F7000D7E75 /* LoginViewController.m */; };
+		FC42AC461F32D61D000D7E75 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC451F32D61D000D7E75 /* ContactTableViewController.m */; };
+		FC42AC491F32D6A5000D7E75 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC481F32D6A5000D7E75 /* AddViewController.m */; };
+		FC42AC4C1F32D6B2000D7E75 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC4B1F32D6B2000D7E75 /* EditViewController.m */; };
+		FC42AC4F1F33190C000D7E75 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC4E1F33190C000D7E75 /* MBProgressHUD.m */; };
+		FC42AC6B1F335468000D7E75 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC42AC6A1F335468000D7E75 /* libMBProgressHUD.a */; };
+		FC42AC6F1F340887000D7E75 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42AC6E1F340887000D7E75 /* ContactModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		FC42AC0E1F32D56C000D7E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC42AC101F32D56C000D7E75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC42AC111F32D56C000D7E75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC42AC131F32D56C000D7E75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC42AC141F32D56C000D7E75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC42AC171F32D56C000D7E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC42AC191F32D56C000D7E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC42AC1C1F32D56C000D7E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,20 @@
 		FC42AC2E1F32D56C000D7E75 /* AddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC42AC321F32D56C000D7E75 /* AddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookUITests.m; sourceTree = "<group>"; };
 		FC42AC341F32D56C000D7E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC42AC411F32D5F7000D7E75 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FC42AC421F32D5F7000D7E75 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FC42AC441F32D61D000D7E75 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		FC42AC451F32D61D000D7E75 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		FC42AC471F32D6A5000D7E75 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		FC42AC481F32D6A5000D7E75 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		FC42AC4A1F32D6B2000D7E75 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		FC42AC4B1F32D6B2000D7E75 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		FC42AC4D1F33190C000D7E75 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FC42AC4E1F33190C000D7E75 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FC42AC501F3353CD000D7E75 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = ../MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		FC42AC6A1F335468000D7E75 /* libMBProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMBProgressHUD.a; path = "../MBProgressHUD/build/Debug-iphoneos/libMBProgressHUD.a"; sourceTree = "<group>"; };
+		FC42AC6D1F340887000D7E75 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		FC42AC6E1F340887000D7E75 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC42AC6B1F335468000D7E75 /* libMBProgressHUD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +100,12 @@
 		FC42AC011F32D56C000D7E75 = {
 			isa = PBXGroup;
 			children = (
+				FC42AC501F3353CD000D7E75 /* MBProgressHUD.xcodeproj */,
 				FC42AC0C1F32D56C000D7E75 /* AddressBook */,
 				FC42AC261F32D56C000D7E75 /* AddressBookTests */,
 				FC42AC311F32D56C000D7E75 /* AddressBookUITests */,
 				FC42AC0B1F32D56C000D7E75 /* Products */,
+				FC42AC691F335468000D7E75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +122,10 @@
 		FC42AC0C1F32D56C000D7E75 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				FC42AC6C1F34085B000D7E75 /* Model */,
+				FC42AC401F32D5CC000D7E75 /* Controller */,
 				FC42AC101F32D56C000D7E75 /* AppDelegate.h */,
 				FC42AC111F32D56C000D7E75 /* AppDelegate.m */,
-				FC42AC131F32D56C000D7E75 /* ViewController.h */,
-				FC42AC141F32D56C000D7E75 /* ViewController.m */,
 				FC42AC161F32D56C000D7E75 /* Main.storyboard */,
 				FC42AC191F32D56C000D7E75 /* Assets.xcassets */,
 				FC42AC1B1F32D56C000D7E75 /* LaunchScreen.storyboard */,
@@ -138,6 +159,40 @@
 				FC42AC341F32D56C000D7E75 /* Info.plist */,
 			);
 			path = AddressBookUITests;
+			sourceTree = "<group>";
+		};
+		FC42AC401F32D5CC000D7E75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC42AC4D1F33190C000D7E75 /* MBProgressHUD.h */,
+				FC42AC4E1F33190C000D7E75 /* MBProgressHUD.m */,
+				FC42AC411F32D5F7000D7E75 /* LoginViewController.h */,
+				FC42AC421F32D5F7000D7E75 /* LoginViewController.m */,
+				FC42AC441F32D61D000D7E75 /* ContactTableViewController.h */,
+				FC42AC451F32D61D000D7E75 /* ContactTableViewController.m */,
+				FC42AC471F32D6A5000D7E75 /* AddViewController.h */,
+				FC42AC481F32D6A5000D7E75 /* AddViewController.m */,
+				FC42AC4A1F32D6B2000D7E75 /* EditViewController.h */,
+				FC42AC4B1F32D6B2000D7E75 /* EditViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FC42AC691F335468000D7E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC42AC6A1F335468000D7E75 /* libMBProgressHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC42AC6C1F34085B000D7E75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC42AC6D1F340887000D7E75 /* ContactModel.h */,
+				FC42AC6E1F340887000D7E75 /* ContactModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC42AC151F32D56C000D7E75 /* ViewController.m in Sources */,
+				FC42AC461F32D61D000D7E75 /* ContactTableViewController.m in Sources */,
+				FC42AC431F32D5F7000D7E75 /* LoginViewController.m in Sources */,
+				FC42AC491F32D6A5000D7E75 /* AddViewController.m in Sources */,
+				FC42AC4C1F32D6B2000D7E75 /* EditViewController.m in Sources */,
 				FC42AC121F32D56C000D7E75 /* AppDelegate.m in Sources */,
 				FC42AC0F1F32D56C000D7E75 /* main.m in Sources */,
+				FC42AC6F1F340887000D7E75 /* ContactModel.m in Sources */,
+				FC42AC4F1F33190C000D7E75 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
